@@ -1,0 +1,20 @@
+*{
+    margin: 4px;
+    padding: 1px;
+}
+
+body{
+    background-color: rgba(255, 68, 0, 0.788) ;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.main2 img{
+ width: 1080px;
+ height: 700px;
+}
