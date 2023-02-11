@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+*/
+
+/* Set the box-sizing for all elements to border-box */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  ;
+}
+nav {
+    background-color:wheat;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px #ccc;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 10px 15px;
+    color:  wheat;
+    text-decoration: none;
+    background-color:wheat;
+    color: rgb(255, 0, 140);
+}
+nav a:hover {
+    background-color :#e8e82c;
+    color:rgb(255, 0, 140 );
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.splitBlock {
+  display: flex;
+}
+
+.left-col {
+  width: 50%;
+  height: 100%;
+  background-color: #F7BAC5;
+  padding: 9%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+h2 {
+  font-weight: 200;
+  font-style: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-me {
+    margin-bottom: 50px;
+}
+
+.my-skills {
+    margin-bottom: 20px;
+}
+
+
+.right-col {
+  width: 50%;
+}
+
+figure {
+  width: 107% ;
+  height: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 10px;
+}
+h3 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+}
+.btn {
+  margin-top: 40px;
+  /* gap: 10px; */
+
+}
+
+.btn a {
+    margin-right: 2rem;
+  display: inline-block;
+  padding: 10px 50px;
+  background: rgba(245, 222, 179, 0.956);
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(255, 0, 140);
+  font-size: 15px;
+  line-height: 1.20pc;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.btn a:hover {
+  background: #e8e82c;
+  color: rgb(255, 0, 140);
+}
+
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+
+*/
+
+
+a {
+    text-decoration: none;
+}
+
+.about{
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.img img{
+    width: 238px;
+    height: 256px;
+}
